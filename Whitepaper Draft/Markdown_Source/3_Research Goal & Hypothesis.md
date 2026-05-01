@@ -1,11 +1,11 @@
-Research Goal & Hypothesis
+# Research Goal and Hypothesis
 
-This project asks how medial septum GABAergic input to medial entorhinal cortex alters CA1 temporal ensemble structure during retrieval after sequential learning in the same context.
+The research goal is to explain how medial septum GABAergic input to medial entorhinal cortex alters CA1 temporal ensemble structure during retrieval after sequential learning in the same context. The analysis focuses on retrieval selection rather than memory storage. The relevant behavioral problem is the expression of the later learned context-value association when prior and updated context-value associations can both be expressed under different retrieval conditions.
 
-Hippocampal memory traces are not overwritten during updating. Distinct engrams persist and compete during retrieval, with inhibitory circuits regulating their activation thresholds and preventing interference.
+The primary circuit study directly motivates this gap by showing that inhibition of MS GABAergic terminals in MEC reverses updated behavior and shifts CA1 population activity back toward the pre-update pattern.
 
-Retrieval depends on inhibitory selection between competing engrams, where GABAergic gating determines which memory trace is expressed in a given context.
+The central hypothesis is that medial septum GABAergic projections regulate retrieval by changing inhibitory microcircuit timing in medial entorhinal cortex. This local timing change is expected to alter the phase and precision of entorhinal output arriving in CA1. The resulting shift in input timing should reorganize CA1 ensemble structure so that the later learned context value is expressed during retrieval.
 
-At the output level, this selection is reflected in the temporal organization of CA1 population activity, where ensemble structure and phase relationships encode the active memory state.
+Three assumptions define the hypothesis. First, hippocampal updating preserves competing traces rather than removing earlier ones. This assumption is consistent with retrieved work on engram persistence, context-dependent gating, and memory architectures that avoid catastrophic overwriting. Second, inhibitory circuits regulate the accessibility of these traces by adjusting thresholds, synchrony, and competition between ensembles. Third, CA1 expresses the selected trace through temporal ensemble organization. Evidence from temporal predictive coding, successor-representation models, and phase-native coding supports the idea that CA1 output depends on structured timing as well as rate.
 
-We hypothesize that medial septum GABAergic projections to medial entorhinal cortex regulate retrieval by altering inhibitory microcircuit timing in MEC, which in turn changes the timing of entorhinal input into CA1. This temporal shift reorganizes CA1 ensemble structure such that the later learned context value is expressed during retrieval.
+The hypothesis is deliberately constrained. A broad claim that septal input improves memory is insufficient. The proposed mechanism requires a sequence of linked effects: septal GABAergic control of medial entorhinal timing, medial entorhinal inhibitory control of output precision, and CA1 temporal reorganization during the retrieval decision. If one link is absent, the pathway would not provide a complete account of retrieval selection after sequential learning.

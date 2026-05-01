@@ -1,0 +1,17 @@
+.DS_Store
+**/.DS_Store
+
+# LaTeX build artifacts
+*.aux
+*.bbl
+*.bcf
+*.blg
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.run.xml
+
+# Local visual verification renders
+page_check-*.png
+**/page_check-*.png
