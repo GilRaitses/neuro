@@ -1,0 +1,46 @@
+\documentclass[10pt,twocolumn]{article}
+
+\usepackage[margin=0.6in]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage{microtype}
+\usepackage{titlesec}
+\usepackage{titling}
+\usepackage[hidelinks]{hyperref}
+\usepackage[
+  backend=biber,
+  style=numeric,
+  sorting=nyt,
+  maxbibnames=4,
+  giveninits=true
+]{biblatex}
+
+\addbibresource{references.bib}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0.35em}
+\setlength{\droptitle}{-5em}
+\preauthor{\begin{center}\normalsize}
+\postauthor{\end{center}\vspace{-1.4em}}
+\titlespacing*{\section}{0pt}{0.8em}{0.15em}
+\AtBeginBibliography{\small}
+
+\title{Septal GABAergic Timing in Entorhinal-Hippocampal Retrieval}
+\author{Gil Raitses}
+\date{}
+
+\begin{document}
+
+\maketitle
+
+\input{Sections/01_motivation_gap}
+\input{Sections/02_background}
+\input{Sections/03_goal_hypothesis}
+\input{Sections/04_proposed_approach}
+\input{Sections/05_outcomes_significance}
+
+\clearpage
+\nocite{*}
+\printbibliography[title={References}]
+
+\end{document}
