@@ -1,0 +1,13 @@
+# Outcomes and Significance
+
+Four outcomes would support the proposed mechanism.
+
+First, medial septum GABAergic input to medial entorhinal cortex should be required most strongly when retrieval depends on selecting between sequentially learned context-value associations in the same context. Perturbation should impair retrieval precision without producing a general memory failure. Behavioral controls are therefore necessary because septal and GABAergic manipulations can affect locomotion and arousal, along with anxiety-related state.
+
+Second, the CA1 effect should appear as altered temporal ensemble structure. Changes in spike timing relationships, phase organization, or cross-correlated ensemble composition would support a timing-based account. A pure firing-rate effect would support a less specific gain-control model. The relevant evidence base includes temporal coding models and dynamic core-periphery ensemble structure, alongside Bayesian decoding of spatially referenced calcium traces.
+
+Third, the mechanism should pass through medial entorhinal inhibitory microcircuits. Septal input should affect local timing control before the CA1 readout changes. Evidence for this step would include altered interneuron phase locking, changed entorhinal output precision, or modified gain and whitening dynamics in medial entorhinal populations. Without this intermediate transformation, the pathway would not explain how septal timing becomes a CA1 retrieval-selection signal.
+
+Fourth, retrieval should follow inhibitory competition rules rather than storage rules. Prior and updated context-value associations should both be expressible under different retrieval conditions, while inhibitory timing determines which association becomes behaviorally expressed. This outcome is consistent with models of engram coexistence and inhibitory plasticity, along with context-dependent gating.
+
+The significance is that memory updating can be framed as a timing problem at the level of inhibitory control. The hippocampal-entorhinal system would not need to replace one learned association with another. It would instead regulate which association dominates CA1 temporal ensemble structure during retrieval. A negative result would also be informative. If behavioral switching occurs without CA1 temporal reorganization or without medial entorhinal timing control, then the mechanism should be localized outside the proposed MS GABAergic output to MEC inhibitory timing to CA1 temporal ensemble sequence.

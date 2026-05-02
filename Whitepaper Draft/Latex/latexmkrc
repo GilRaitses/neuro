@@ -1,0 +1,5 @@
+$out_dir = '../Build';
+$aux_dir = '../Build';
+$pdf_mode = 1;
+$interaction = 'nonstopmode';
+$synctex = 1;

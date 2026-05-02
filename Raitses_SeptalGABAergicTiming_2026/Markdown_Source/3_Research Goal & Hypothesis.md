@@ -1,0 +1,11 @@
+# Research Goal and Hypothesis
+
+The research goal is to explain how medial septum GABAergic input to medial entorhinal cortex alters CA1 temporal ensemble structure during retrieval after sequential learning in the same context. The analysis focuses on retrieval selection rather than memory storage. The relevant behavioral problem is the expression of the later learned context-value association when prior and updated context-value associations can both be expressed under different retrieval conditions.
+
+The primary circuit study directly motivates this gap by showing that inhibition of MS GABAergic terminals in MEC reverses updated behavior and shifts CA1 population activity back toward the pre-update pattern.
+
+The central hypothesis is that medial septum GABAergic projections regulate retrieval by changing inhibitory microcircuit timing in medial entorhinal cortex. This local timing change is expected to alter the phase and precision of entorhinal output arriving in CA1. The resulting shift in input timing should reorganize CA1 ensemble structure so that the later learned context value is expressed during retrieval.
+
+Three assumptions define the hypothesis. First, hippocampal updating preserves competing traces rather than removing earlier ones. This assumption is consistent with retrieved work on engram persistence and context-dependent gating, alongside memory architectures that avoid catastrophic overwriting. Second, inhibitory circuits regulate the accessibility of these traces by adjusting thresholds and synchrony while controlling competition between ensembles. Third, CA1 expresses the selected trace through temporal ensemble organization. Evidence from temporal predictive coding and successor-representation models, along with phase-native coding, supports the idea that CA1 output depends on structured timing as well as rate.
+
+The hypothesis is deliberately constrained. A broad claim that septal input improves memory is insufficient. The proposed mechanism requires linked effects in sequence: septal GABAergic control of medial entorhinal timing, medial entorhinal inhibitory control of output precision, then CA1 temporal reorganization during the retrieval decision. If one link is absent, the pathway would not provide a complete account of retrieval selection after sequential learning.
