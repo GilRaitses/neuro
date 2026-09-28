@@ -56,7 +56,7 @@ Do not overwrite a completed summary unless the user explicitly asks for a rerun
 
 ## Round 1 stop condition
 
-Round 1 is complete only when all 19 expected summary files exist.
+Round 1 is complete only when all 20 expected summary files exist.
 
 After all summaries are saved, update:
 `Raitses_TibialMechanostimulation_2026/REVIEW_STATE.md`
