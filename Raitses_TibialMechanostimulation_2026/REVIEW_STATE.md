@@ -1,6 +1,6 @@
 # Review State
 
-Status: ROUND_1_PENDING
+Status: ROUND_1_COMPLETE_AWAITING_REVIEW
 
 ## Current gate
 
@@ -27,3 +27,11 @@ After Round 1 is complete:
 - Research Goal and Hypothesis: 6
 - Proposed Approach: 4
 - Anticipated Outcomes and Significance: 3
+
+## Round 1 completion note
+
+Completed 2026-09-27. All 20 expected summaries were run in Emergent Mind (Research mode) and saved beside their section `searches.md` using the manifest filenames.
+
+Failed or incomplete searches: none.
+
+Source note: the Emergent Mind Markdown export cites sources as bracketed arXiv IDs (for example `[1909.08071]`) rather than full URLs. These were preserved as returned. O1 and O3 returned no bracketed source IDs.

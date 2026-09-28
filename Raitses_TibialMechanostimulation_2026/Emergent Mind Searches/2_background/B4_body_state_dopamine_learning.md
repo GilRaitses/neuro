@@ -1,0 +1,31 @@
+# You:
+
+bodily state movement dopamine associative learning Drosophila mushroom body Litwin-Kumar
+
+# Emergent Mind:
+
+# Dopaminergic Gating of Mushroom Body Plasticity by Bodily State and Locomotor Feedback
+
+Classical models of associative conditioning in *Drosophila melanogaster* treat the mushroom body (MB) as a feedforward olfactory classifier where discrete unconditioned stimuli, such as electric shocks or sugar ingestion, trigger phasic reinforcement. However, functional imaging in behaving flies and connectome-constrained computational models have overturned this view. Dopaminergic neurons (DANs) innervating discrete anatomical compartments of the MB continuously encode the animal's ongoing motor activity and internal bodily state, including nutritional deficit and hydration levels. Theoretical work by Ashok Litwin-Kumar and colleagues has formalized how these diverse, multiplexed signals operate within high-dimensional sparse representations to regulate synaptic plasticity and memory retrieval. This review examines how movement and bodily states modulate dopaminergic transmission to dynamically shape associative learning in the MB circuit.
+
+## Structural Architecture and Sparse Expansion Coding
+
+Olfactory processing in *Drosophila* relies on an expansion layer from approximately 150 projection neurons (PNs) in the antennal lobe to roughly 2,000 Kenyon cells (KCs) comprising the MB calyx and lobes ($\alpha/\beta$, $\alpha'/\beta'$, and $\gamma$). Each KC samples pseudo-randomly from an average of six to eight distinct PNs via claw-like dendritic structures. Ashok Litwin-Kumar and collaborators demonstrated theoretically that this sparse, divergent-convergent connectivity optimizes the coding capacity of the KC population ([cell.com](https://www.cell.com/neuron/fulltext/S0896-6273(17)31024-X)). By minimizing cross-talk and linear dependencies across sensory representations, the network maximizes the linear separability of distinct odor bouquets while preserving task-relevant generalization. 
+
+Connectomic reconstructions have confirmed that these high-dimensional representations converge onto a small ensemble of 34 mushroom body output neurons (MBONs) partitioned across 15 compartmental units [1705.03297, 2404.17128]. Plasticity in this circuit predominantly takes the form of input-specific depression at KC-to-MBON synapses [2107.07617]. Because distinct MBONs direct innate approach or avoidance behaviors, the selective depression of synapses onto avoidance-mediating MBONs tips the population vector toward approach, whereas depression of approach-mediating MBON synapses drives avoidance.
+
+## Motor-Related Modulation and Bodily State Encoding in Dopaminergic Neurons
+
+Dopaminergic afferents to the MB—derived predominantly from the protocerebral anterior medial (PAM) and protocerebral posterior lateral 1 (PPL1) clusters—tile the lobes in registration with MBON dendritic compartments. Rather than functioning exclusively as transient channels for reinforcement, functional two-photon calcium imaging in tethered flies running or grooming on spherical treadmills reveals that DAN compartments are continuously active during behavior. Movement modulates baseline calcium fluctuations across both PAM and PPL1 neurons; for example, specific compartments exhibit robust increases in intracellular calcium during forward locomotion and turning, whereas others display movement-locked inhibition.
+
+Beyond immediate motor kinematics, metabolic and physiological bodily states strongly bias DAN baseline activity and gain. Nutrient deprivation, starvation-induced hunger, and desiccation alter neuropeptidergic signaling (such as dNPF and sNPF pathways), directly depolarizing subsets of PAM DANs. This state-dependent modulation selectively primes rewarding memory formation or enhances memory retrieval when the fly is in a matching physiological deficit state. The integration of continuous locomotor feedback with internal bodily states demonstrates that dopamine does not simply deliver an episodic scalar prediction error, but rather supplies an ongoing readout of internal arousal, kinematics, and metabolic demand [2108.12402, 2207.00636].
+
+## Plasticity Rules and Context-Gated Readout
+
+The intersection of sparse presynaptic KC activity and motor- or state-modulated dopaminergic influx drives associative plasticity at KC-to-MBON synaptic boutons. Synaptic modification depends on a localized three-factor plasticity rule: presynaptic acetylcholine release and intracellular calcium transients in KCs coincide with dopamine release that acts upon G-protein-coupled dopamine receptors (such as Dop1R1, Dop1R2, and Dop2R), recruiting downstream cyclic adenosine monophosphate (cAMP) and protein kinase A (PKA) cascades. 
+
+Computational models formulated by Litwin-Kumar, Abbott, and colleagues show how embedding continuous behavioral and state signals into DAN inputs transforms learning from an isolated stimulus-response lookup table into dynamic state-dependent policy optimization. When an animal is quiescent, the plasticity threshold and baseline weight drift remain stable; during active movement or intense starvation, elevated dopaminergic tone induces compartment-specific synaptic depression or resets prior memory traces via active forgetting mechanisms. Furthermore, reciprocal connections between MBONs, DANs, and the central complex form recurrent loops that route motor efference copies and spatial orientation signals back into the MB learning compartments. This reciprocal architecture ensures that behavioral expressions of stored associations are tightly filtered through the fly's instantaneous bodily state and ongoing navigation behavior.
+
+## Conclusion
+
+The Drosophila mushroom body operates as an active behavioral engine where sensory inputs, locomotor feedback, and homeostatic bodily states converge at compartmentalized KC-to-MBON synapses. Modeling and connectomic analyses pioneered by Litwin-Kumar and collaborators highlight how sparse coding layers enable efficient classification when guided by multi-component dopaminergic modulation. Ultimately, dopaminergic signaling bridges internal metabolic demands and real-time movement to control both the encoding of memories and the contextual execution of adaptive behavior.
