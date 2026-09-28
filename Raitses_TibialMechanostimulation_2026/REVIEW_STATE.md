@@ -20,7 +20,7 @@ After Round 1 is complete:
 
 ## Expected Round 1 count
 
-19 summaries total.
+20 summaries total.
 
 - Motivation and Gap: 3
 - Background: 4
